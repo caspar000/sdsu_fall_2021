@@ -1,22 +1,17 @@
-# cra-template-tailwindcss-typescript
+# SDSU EE Links
 
-A streamlined [Tailwind CSS](https://tailwindcss.com) template for [Create React App](https://github.com/facebook/create-react-app) in [TypeScript](https://www.typescriptlang.org/).
+![Overview](overview.png)
 
-> This template installs and sets up [Tailwind CSS](https://tailwindcss.com) with TypeScript support.
+Contains links for all books and zoom lecutres
+of SDSU 2021 FALL semester.
 
-## Usage
-
-```bash
-npx create-react-app --template tailwindcss-typescript
-```
-
-## Credits
-
-This project was made possible thanks to the following projects.
-
-1. [GeoffSelby/cra-template-tailwindcss](https://github.com/GeoffSelby/cra-template-tailwindcss) - A streamlined Tailwind CSS template for Create React App (in JavaScript).
-2. [cra-template-typescript](https://github.com/facebook/create-react-app/tree/master/packages/cra-template-typescript) - An official TypeScript template for create-react-app.
-
-## License
-
-MIT © [Sung M. Kim](https://sung.codes)
+If you wish to add a lecture or change something please follow this format:
+<code>
+{
+title: "Computer Engineering 470 Lab G2",
+lecturer: "Tsotne Putkaradze",
+lecture*time: "F * 13:30pm - 16:30pm",
+zoom_link: "https://SDSU.zoom.us/j/89139352499",
+book_link: "",
+},
+</code>
