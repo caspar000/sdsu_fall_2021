@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import SvgBook from "./svg/svg_book";
 import SvgZoom from "./svg/svg_zoom";
+import schedule from "./svg/schedule.png";
 
 const lectures = [
   {
@@ -110,6 +111,10 @@ function App() {
               </div>
             );
           })}
+        </div>
+        <div className="mx-2">
+          <h3 className="mt-4 text-lg font-medium text-center">Schedule</h3>
+          <img src={schedule} alt="2021 Fall Schedule" className="w-full pb-4"/>
         </div>
       </div>
     </>
